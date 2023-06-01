@@ -25,15 +25,25 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 10px;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.1;
+  cursor: pointer;
+}
+
+input {
+  padding: .5rem;
 }
 
 button {
@@ -66,4 +76,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  
 }
